@@ -3,43 +3,7 @@
     padding:0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;    
   }  
-
-
-table{ 
-    border-collapse: collapse;
-    width: 100%;
-    text-align: left;
-}
-table td{      
-    vertical-align:middle;
-    /*border: 1px solid black;*/
-    border-collapse: collapse;
-    text-align: left;
-    font-weight: lighter;   
-    text-align: center;
-}
-
-tr:nth-child(odd) {
-    background-color: #cccccc; font-weight: bolder;
-}
-tr:nth-child(1) {
-    background-color: black; color: white; border: 1px solid white;
-}
-
-
-th, td {
-    padding: 5px;    
-  }
-
-.cabecalho{
-    
-    display:flex;
-    width: 100%;
-    background-color: #811414;
-    color: white;  
-    font-weight: lighter;    
-    
-}
+  
 .titulo {
 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -88,15 +52,6 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 
-.escolha {
-    
-    text-align: center;
-    font-size: 1.5em;
-      
-    
-    
-}
-
 a:link {
     text-decoration: none;
   }
@@ -114,37 +69,10 @@ a:link {
     text-decoration: underline;
   }
 
+.usuarioStatus{
  
-.escolha{
-    
-    width: 250px;
-    height: auto;
-    display: inline-flexbox;
-    margin: 0 auto;
-    padding: 2%;
-    
-}
-.escolha1{
-    border: 2px solid black;
-     border-radius: 25px;    
-    padding: 2%;
-    background-color: silver;
-    margin-bottom: 2%;
-    
-}
-
-.escolha2{
-
-
-    border: 2px solid black;
-    border-radius: 25px;
-    padding: 2%;
-    background-color: silver;
-}
-
-.container {
-    
-
-    
+  background-color: #811414;
+  color: white;
+  display:block;
 }
 
